@@ -1,0 +1,27 @@
+pageinfo: 登录页面
+
+testele: #测试控件元素定位
+  - element_info: //*[@id="app"]/section/section/section/div[2]/div/form/div[1]/div/div/input
+    find_type: By.XPATH
+    operate_type: send_keys
+    remark: 用户名输入框
+  - element_info: //*[@id="app"]/section/section/section/div[2]/div/form/div[2]/div/div[1]/input
+    find_type: By.XPATH
+    operate_type: send_keys
+    remark: 密码输入框
+  - element_info: //*[@id="app"]/section/section/section/div[2]/div/form/div[3]/div/label/span[1]/span
+    find_type: By.XPATH
+    operate_type: click
+    remark: 自动登录勾选框
+  - element_info: //*[@id="app"]/section/section/section/div[2]/div/form/div[4]/button
+    find_type: By.XPATH
+    operate_type: click
+    remark: 登录按钮
+
+checkele: #检查控件元素定位
+  - element_info: /html/body/div[2]/div/div[2]/div[2]/p
+    find_type: By.XPATH
+    info: 检查输入手机号或密码，登录异常提示
+  - element_info: //*[@id="main-container"]/section/main/div/div[2]/div[1]/div/div[1]/div[2]/a
+    find_type: By.XPATH
+    info: 成功登录

@@ -1,0 +1,23 @@
+#测试数据
+id: test001_login
+desc: 用户名密码登录
+screenshot: user_login
+data_test: #测试环境账号
+  - type: 1 #正常流程
+    desc: 正确的用户名密码登录
+    user: chitonelw
+    pwd: a1234567
+    check: 智通测试2
+  - type: -1 #异常流程
+    desc: 错误的用户名密码登录
+    user: wronguser
+    pwd: wrongpwd
+    check: 账户不存在或密码错误
+data_dev: #dev环境账号
+  - user: chitone
+    pwd: master0526
+    check: 广东智通人才连锁股份有限公司-智通人才网
+data: #正式环境账号
+  - user: chitone
+    pwd: master0526
+    check: 广东智通人才连锁股份有限公司-智通人才网

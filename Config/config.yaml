@@ -1,0 +1,29 @@
+mail:
+  #邮件服务器
+  host_server: smtp.jobzt.cn
+  #发件人
+  from: dg6366@job5156.com
+  #收件人
+  to: 1809395667@qq.com
+  #发件人信息
+  user: dg6366@job5156.com
+  pwd: wdy980317
+  #邮件主题
+  subject: 自动化测试报告
+
+weburl:
+  #B端
+  b_url_test: http://hr.sztest.job5156.com/login?redirect=%2F
+  b_url_dev: http://hr.dev.job5156.com/
+  b_url: https://hr.job5156.com/
+  #admin端
+  admin_url_test: http://admin.sztest.job5156.com/
+  admin_url_dev: http://admin.dev.job5156.com/
+  admin_url: https://admin.job5156.com/
+
+browser:
+  br_default: Chrome
+  br_chrome: Chrome
+  br_ie: Ie
+  br_firefox: Firefox
+  br_edge: Edge
